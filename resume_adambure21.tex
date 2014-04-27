@@ -1,0 +1,87 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+%% ModernCV themes
+\moderncvstyle{casual}
+\moderncvcolor{blue}
+\renewcommand{\familydefault}{\sfdefault}
+\nopagenumbers{}
+
+%% Character encoding
+\usepackage[utf8]{inputenc}
+
+%% Adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+%% Personal data
+\firstname{Abhinay}
+\familyname{Ambure}
+
+\address{Varuda Road,Vaishanv Nagar,Osmanabad,Maharashtra.}{413501}
+\mobile{09028860029}
+\email{adambure21@gmail.com}
+\extrainfo{Walchand College Of Engg,Sangli.}
+
+
+%%------------------------------------------------------------------------------
+%% Content
+%%------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle
+
+\section{Education}
+\cventry{2013-2015}{Master Of Technology}{Walchand College Of Engineering,}{Sangli}{ \textit{8.0/10.0} } {} % arguments 3 to 6 can be left empty
+\cventry{2008-2012}{Bachlor Of Engineering.}{KIT'S College Of Engineering,}{Kolhapur}{ \textit{66.75/100} }{} 
+\cventry{2007-2008}{H.S.C}{S.B.Junior College,
+}{Osmanabad}{ \textit{78.17/100} }{} 
+\cventry{2005-2006}{S.S.C}{Chh. Shivaji High School,
+}{Osmanabad}{ \textit{86.17/100} }{}
+
+\section{Master Thesis}
+
+\cvitemwithcomment {Title}{ \emph{Underwater Image Enhancement using Wavelength Decomposition and De-hazing} }{Ongoing}
+
+\cvitem{Description}{ \emph{Underwater images are attenuated with Artificial light,Reflection, Refraction,Bluish Tone(Haze).The project aims to remove or minimize these effects from image captured under water.} }
+
+\section{Bachelor Thesis}
+
+\cvitemwithcomment{Title}{ \emph{Augmented virtual reality} }{Year:2012}
+
+\cvitem{Description}{ \emph{The project aims to augmenting information or some keyword on the live video captured using web cam.The information can be any known keyword about object in video} }
+
+
+\section{Other projects}
+
+\cvitemwithcomment{Title}{ \emph{Pattern Matching using gray-level co-occurrence matrix. }}{Year:2014}
+
+\cvitem{Description}{ \emph{This mini-project aims to find closest pattern.Input to system is a single pattern and output is very close or exact matched pattern } }
+\cvitem{Tool}{ \emph{Matlab}}
+
+\cvitemwithcomment{Title}{ \emph{University website }}{Year:2012}
+
+\cvitem{Description}{ \emph{This mini-project aims to providing facilities like upload of student data by university(in XML format), generate the result from uploaded marks and provide download of data.(in pdf format)  } }
+
+\cvitem{Technology}{ \emph{Html,Jsp,Servlets,mysql }}
+
+
+\cvitemwithcomment{Title}{ \emph{ICC Cricket Website }}{Year:2011}
+
+\cvitem{Description}{ \emph{This mini-project aims to provide information of match schedule,team information,player information,News pages,links to ticket registration sites.} }
+
+\cvitem{Technology}{ \emph{Html,Jsp,Ms-access}}
+
+
+
+
+\section{Language}
+\cvitem{English}{Read,Write,Speak}
+\cvitem{Hindi}{Read,Write,Speak}
+\cvitem{Marathi}{Read,Write,Speak}
+% 
+%\cvitemwithcomment{Language 1}{Skill level}{Comment}
+%\cvdoubleitem{category X}{XXX, YYY, ZZZ}{category Y}{XXX, YYY, ZZZ}
+%\cvlistitem{Item 1}
+%\cvlistdoubleitem{Item 2}{Item 3}
+%% ...
+
+\bibliography{publications}
+\end{document}
